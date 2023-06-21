@@ -1,0 +1,30 @@
+<svg
+  width="3300"
+  height="2100"
+  viewBox="0 0 3300 2100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <filter id="displacementFilter">
+    <feTurbulence
+      type="turbulence"
+      baseFrequency="0.005"
+      numOctaves="8"
+      result="turbulence"
+    />
+    <feDisplacementMap
+      in2="turbulence"
+      in="SourceGraphic"
+      scale="4"
+      xChannelSelector="R"
+      yChannelSelector="G"
+    />
+  </filter>
+
+  <rect
+    x="0"
+    y="0"
+    width="3300"
+    height="2100"
+    style="filter: url(#displacementFilter)"
+  />
+</svg>

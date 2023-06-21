@@ -1,0 +1,21 @@
+{
+  "name": "lino_coastlines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kienan",
+  "license": "ISC",
+  "dependencies": {
+    "alea": "^1.0.1",
+    "canvas-sketch": "^0.7.7",
+    "canvas-sketch-util": "^1.10.0",
+    "convexhull-js": "^1.0.0",
+    "load-asset": "^1.2.0",
+    "p5": "^1.6.0",
+    "simplex-noise": "^4.0.1"
+  }
+}
