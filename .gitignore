@@ -1,2 +1,9 @@
 # Dependency dirs
 node_modules/
+
+outputs/
+favs/
+fav favs/
+
+.DS_Store
+
